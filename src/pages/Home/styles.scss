@@ -1,5 +1,7 @@
 $skin-tone: #a37762;
 $inner-skin-tone: #dca7a7;
+$human-skin: #fbc8b4;
+$hair-harry: #574218;
 .canvas {
     background: #ca97ef;
     width: 100%;
@@ -13,25 +15,20 @@ $inner-skin-tone: #dca7a7;
         animation-duration: 2s;
     }
 }
-.bow-1 {
+.bow-1,.bow-2 {
     width: 110px;
     height: 30px;
     border-radius: 5px;
-    transform: rotate(8deg);
     background-color: lightblue;
     left: 23%;
     bottom: 20%;
     position: absolute;
 }
+.bow-1 {
+    transform: rotate(8deg);
+}
 .bow-2 {
-    width: 110px;
-    height: 30px;
-    border-radius: 5px;
     transform: rotate(-8deg);
-    background-color: lightblue;
-    left: 23%;
-    bottom: 20%;
-    position: absolute;
 }
 .bow-3 {
     height: 40px;
@@ -42,23 +39,20 @@ $inner-skin-tone: #dca7a7;
     left: 39%;
     top: 65%;
 }
-.bow-4 {
+.bow-4, .bow-5 {
     height: 47px;
     width: 50px;
-    background-color: lightblue;
+    top: 62%;
     position: absolute;
+    background-color: lightblue;
+}
+.bow-4 {
     left: 20%;
     border-radius: 38px 62px 62px 38px;
-    top: 62%;
 }
 .bow-5 {
-    height: 47px;
-    width: 50px;
-    background-color: lightblue;
-    position: absolute;
     right: 20%;
     border-radius: 62px 38px 38px 62px;
-    top: 62%;
 }
 .first-try {
     width: 100px;
@@ -244,7 +238,7 @@ $inner-skin-tone: #dca7a7;
     50%  { top: 53%; }
     100% { top: 50%; }
 }
-
+// PANDA STYLES
 .panda {
     .body {
         height: 120px;
@@ -361,4 +355,94 @@ $inner-skin-tone: #dca7a7;
     .black {
         background-color: black;
     }
+}
+
+// HARRY STYLES
+.harry {
+    .head {
+        background-color: $human-skin;
+        border-radius: 65px;
+        border: 5px solid black;
+    }
+    .ear-right,.ear-left {
+        background-color: $human-skin;
+        border: 5px solid black;
+        width: 30px;
+        height: 30px;
+        bottom: 50%;
+    }
+    .ear-right {
+        right: 5px;
+    }
+    .ear-left {
+        left: 5px;
+    }
+    .glass-inner {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        width: 19px;
+        height: 5px;
+        background-color: black;
+    }
+    .eye-right,.eye-left {
+        border: 5px solid black;
+        background-color: transparent;
+        height: 60px;
+        width: 60px;
+        &__inner {
+            width: 25px;
+            height: 25px;
+            left: 18%;
+            top: 9px;
+        }
+    }
+    .eye-right {
+        right: 7%;
+    }
+    .eye-left {
+        left: 7%;
+    }
+    .bangs,.bangs-2 {
+        background-color: $hair-harry;
+        border-bottom: 5px black solid;
+        border-left: 5px black solid;
+        border-right: 5px black solid;
+        position: absolute;
+        width: 33px;
+        border-radius: 20px 7%;
+        top: -4%;
+        height: 51px;
+    }
+    .bangs {
+        transform: rotate(22deg);
+    }
+    .bangs-2 {
+        width: 100px;
+        right: 0;
+        border-radius: 7% 20px;
+
+    }
+    .back-hair {
+        background-color: $hair-harry;
+        position: absolute;
+        width: 200px;
+        border-bottom: 5px black solid;
+        border-left: 5px black solid;
+        border-right: 5px black solid;
+        border-radius: 68px 50px 43px 34px;
+        height: 133px;
+        top: -25px;    
+    }
+    .back-hair-2 {
+        background-color: $hair-harry;
+        width: 223px;
+        height: 96px;
+        border: 5px black solid;
+        border-radius: 60px 60px 30px 15px;
+        position: absolute;
+        top: -15%;
+        left: -11px;
+    }    
+
 }

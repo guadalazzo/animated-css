@@ -62,6 +62,33 @@ function Home (props) {
                 </div>
                 <div className="shadow"/>
             </section>
+            <section className="canvas">
+                <div className="bear harry">
+                    <div className="ear-left "/>
+                    <div className="ear-right "/>
+                    <div className="back-hair-2"/>
+                    <div className="back-hair"/>
+                    <div className="head white">
+                        <div className="eye-left black">
+                            <div className="eye-left__inner white"/>
+                        </div>
+                        <div className="glass-inner" />
+                        <div className="eye-right black">
+                            <div className="eye-right__inner white"/>
+                        </div>
+                        <div className="bangs"/>
+                        <div className="bangs-2"/>
+
+                    </div>
+
+                    <div className="body ">
+                        <div className="hand-left"/>
+                        <div className="hand-right"/>
+                    </div>
+                    <div className="leg-right"/>
+                    <div className="leg-left"/>
+                </div>
+            </section>
         </article>);
 }
 export default Home;
