@@ -68,7 +68,10 @@ function Home (props) {
                     <div className="ear-right "/>
                     <div className="back-hair-2"/>
                     <div className="back-hair"/>
-                    <div className="head white">
+                    <div className="head">
+                        <div className="storm-line-1"/>
+                        <div className="storm-line-2"/>
+                        <div className="storm-line-3"/>
                         <div className="eye-left black">
                             <div className="eye-left__inner white"/>
                         </div>
@@ -76,17 +79,28 @@ function Home (props) {
                         <div className="eye-right black">
                             <div className="eye-right__inner white"/>
                         </div>
-                        <div className="bangs"/>
-                        <div className="bangs-2"/>
-
+                        <div className="mouth-line-1"/>
+                        <div className="mouth-line-2"/>
+                        <div className="bangs animated-bangs"/>
+                        <div className="bangs-2 animated-bangs-2"/>
+                        <div className="bangs-3 animated-bangs-2"/>
+                        <div className="bangs-4 animated-bangs-2"/>
                     </div>
-
                     <div className="body ">
+                        <div className="scarf"/>
+                        <div className="scarf scarf-bottom"/>
+                        <div className="body-suit"/>
                         <div className="hand-left"/>
-                        <div className="hand-right"/>
+                        <div className="fist-left hand-wam"/>
+                        <div className="varita wam"/>
+                        <div className="hand-right animated-wam"/>
+                        <div className="fist-right"/>
+
                     </div>
                     <div className="leg-right"/>
                     <div className="leg-left"/>
+                    <div className="foot-right"/>
+                    <div className="foot-left"/>
                 </div>
             </section>
         </article>);
