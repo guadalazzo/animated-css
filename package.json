@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/guadalazzo/animated-css#readme",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "babel-polyfill": "^6.26.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
